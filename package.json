@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src --out-dir build",
     "dev": "nodemon src/server.js --exec babel-node",
-    "start": "node build/server.js"
+    "start": "node src/server"
   },
   "keywords": [],
   "author": "William",
