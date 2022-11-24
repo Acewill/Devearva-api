@@ -1,0 +1,9 @@
+20221102	17:01:43	efa342a1-55d5-4220-9f08-67e6c4810396	SyntaxError: Unexpected token f in JSON at position 16
+20221102	17:01:46	7a6a91c9-403a-48b8-8770-b95f185288bb	SyntaxError: Unexpected token f in JSON at position 16
+20221102	17:21:04	b12546fc-63b4-4122-9613-26c8e2fce636	Error: Not allowed by CORS
+20221102	17:22:42	3ef72981-627d-4043-9e41-25348478167c	Error: Not allowed by CORS
+20221102	17:23:22	6ae2b779-f6d3-4f7b-b4a0-5f5ad3d5ad03	Error: Not allowed by CORS
+20221102	17:23:58	2243d66a-29c5-47ee-8c61-17f756606cab	Error: Not allowed by CORS
+20221102	17:24:40	09990b07-25c3-4ecf-93f7-804fd8423c96	Error: Not allowed by CORS
+20221102	17:24:51	afe97cca-f8aa-445d-8c81-81e854724522	Error: Not allowed by CORS
+20221102	17:25:19	4ca49cdd-6390-446e-ac4e-b8b20f6079f2	Error: Not allowed by CORS
