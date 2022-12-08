@@ -7,7 +7,7 @@ const {validationResult} = require('express-validator');
 
 const createMaquinaria = async(req, res) => {
      
-    const {id, nombre, marca, categoria,fechaIngreso,vidaUtil,numeroReparaciones,estadoMaquinaria,costoMaquina,depreciacionAnio,FechaActualizacion} = req.body
+    const {id, nombre, marca, categoria,fechaIngreso,vidaUtil,numeroReparaciones,estadoMaquinaria,historialMaquinaria,costoMaquina,depreciacionAnio,FechaActualizacion} = req.body
 
 
     const errors = validationResult(req);
@@ -16,7 +16,7 @@ const createMaquinaria = async(req, res) => {
     }
 
 
-    const newMaquinaria = new Maquinaria({id, nombre, marca, categoria,fechaIngreso,vidaUtil,numeroReparaciones,estadoMaquinaria,costoMaquina,depreciacionAnio,FechaActualizacion})
+    const newMaquinaria = new Maquinaria({id, nombre, marca, categoria,fechaIngreso,vidaUtil,numeroReparaciones,estadoMaquinaria,historialMaquinaria,costoMaquina,depreciacionAnio,FechaActualizacion})
 
     const maquinariaSaved = await newMaquinaria.save()
 

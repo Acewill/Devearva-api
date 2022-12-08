@@ -51,6 +51,7 @@ app.use('/empleado', require('../src/routes/empleado.route'));
 app.use('/gasto', require('../src/routes/gasto'));
 app.use('/inventario', require('../src/routes/inventario'));
 app.use('/maquinaria', require('../src/routes/maquinaria.route'));
+app.use('/marca', require('./routes/marca'));
 
 
 app.use(verifyJWT);
