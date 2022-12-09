@@ -37,7 +37,7 @@ const handleLogin = async (req, res) => {
         
         // res.cookie('jwt', refreshToken, {httpOnly: true, sameSite: 'None', maxAge: 24 * 60 * 60 * 1000}); // COMMENT OUT SECURE: true if use thunder client
         res.cookie('jwt', refreshToken, { httpOnly: false, secure: true, sameSite: 'None', maxAge: 24 * 60 * 60 * 1000 });
-        res.json({ roles,accessToken });
+        res.json({ roles,accessToken,foundUser });
         console.log("ok")
     } else {
         res.sendStatus(401);
