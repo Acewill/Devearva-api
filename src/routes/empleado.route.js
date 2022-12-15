@@ -12,6 +12,9 @@ const { body, validationResult } = require('express-validator');
 
 router.post('/',
     body('cedula').isString().withMessage("Cedula no valida"),
+   
+
+
     [empleadoCtrl.createEmpleado])
 
 router.get('/', empleadoCtrl.getEmpleados)

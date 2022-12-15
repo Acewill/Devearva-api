@@ -10,6 +10,7 @@ const MaquinariaSchema = new Schema({
     vidaUtil: Number,
     numeroReparaciones:Number,
     estadoMaquinaria:String,
+    historialMaquinaria: String,
     costoMaquina:Number,
     depreciacionAnio:Number,
     FechaActualizacion: String
